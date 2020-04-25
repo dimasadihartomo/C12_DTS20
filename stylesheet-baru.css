@@ -1,0 +1,292 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: "Bookman Old Style";
+}
+
+li {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+/* Bagian Header dan Bagian Utama */ 
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+}
+
+.logo-kiri {
+    float: left;
+    padding: 15px 0;
+}
+
+.menu-kanan {
+    float: right;
+    margin-right: 50px;
+}
+
+.menu-kanan p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 13px;
+    font-weight: bold;
+}
+
+.menu-kanan a {
+    margin-top: 15px;
+    line-height: 4px;
+    padding: 0 25px;
+    color: #fff;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    border-radius: 100%;
+}
+.menu-kanan p:hover {
+    color: #000;
+}
+.menu-kanan a:hover {
+    /* background-color: rgba(255,255,255,0.5); */
+    background-color: #ffdd59;
+}
+
+.menu-kanan a:active {
+    /* background-color: purple; */
+    background-image: purple;
+    color: blue;
+}
+
+.text-pertama {
+
+    padding: 100px 0 360px 0;
+    background-image: url(pexels-photo-633409.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+  }
+
+.text-pertama h1 {
+    overflow: hidden;
+    transition: all 2s;
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.text-pertama h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+span {
+    background-color: #ffdd59;
+    color: #000;
+}
+
+/* Bagian Extra 1 atau Content Profile */ 
+.bagian-extra1 {
+    margin: 20px 200px;
+}
+
+.container-extra1 h1 {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.container-extra1 h1:after {
+    content: '';
+    background: #ffdd59;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.profil {
+    margin-top: 25px;
+}
+
+.profil h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.profil h3 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.profil p {
+    font-size: 12px;
+}
+.imgbox {
+    margin-top: 15px;
+}
+
+.social {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.social .fa {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.social .fa:hover {
+    background: #000;
+    color: #ffdd59;
+    transform: translateY(-7px);
+}
+
+.profil:hover {
+    border: 5px solid #ffdd59;
+}
+
+/* Bagian Extra 2 atau Kesan Pesan */ 
+
+.contact-form {
+    padding-top: 50px;
+    text-align: center;
+    color: #000;
+  }
+.contact-form h1:after {
+    content: '';
+    background: #ffdd59;
+    display: block;
+    height: 3px;
+    width: 300px;
+    margin: 10px auto;
+}
+  p {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  textarea {
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:2px solid #A9A9A9;
+    background-color: #A9A9A9;
+    border-radius: 10px;
+  }
+  
+/* Bagian Footer */  
+
+#myFooter {
+    padding-top:32px;
+}
+
+#myFooter .container {
+    text-align: center;
+}
+
+#myFooter .footer-copyright {
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+    font-size: 10px;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a {
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li {
+    font-size: 10px;
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social {
+    height: 75px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:  #000;
+}
+
+#myFooter .fa {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+    background-color: #ffdd59;
+    color: #000;
+    border-radius: 50%;
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 15px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff; 
+}
+
+#myFooter .fa-google-plus:hover {
+    color:red;
+}
+
+#myFooter .fa-google-plus:focus {
+    color:red;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus {
+    color:#00aced;
+}
+
+.footer-social img {
+    float: left;
+} 
+
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+ }
