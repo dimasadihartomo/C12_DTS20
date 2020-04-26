@@ -1,11 +1,90 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+    .item {
+        width: 50%;
+    }
+    * {
+        box-sizing: border-box
+    }
+    .text-pertama {
+        background-size: cover;
+        padding: 150px 0 250px 0;
+    }
 
-  
+    .text-pertama h1, .text-pertama h2, .text-pertama p {
+        transform: translateY(-50px)
+    }
+    
+    .container-extra2 .textbox h4 {
+        margin: 15px 0 0;
+        font-size: 12px;
+    }
+    
+    .container-extra2 .textbox h4 span {
+        font-size: 10px;
+    }
+
+    #myFooter a {
+        font-size: 12px;
+    }
+
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+    item {
+        width: 100%;
+    }
+    * {
+        box-sizing: border-box
+    }
+    .menu-kanan {
+        display: none;
+    }
+      
+    header .menu-icon {
+        display: block;
+    }
 
-  
+    .text-pertama {
+        background-size: cover;
+    }
+
+    .text-pertama {
+        background-size: cover;
+        padding: 150px 0 100px 0;
+    }
+
+    .text-pertama h1 {
+        font-size: 26px;
+    }
+
+    .text-pertama h2 {
+        font-size: 14px;
+    }
+
+    .text-pertama p {
+        font-size: 8px;
+    }
+
+    .container-extra1 h1 {
+        font-size: 26px;
+    }
+
+    .bagian-extra2 h1 {
+        font-size: 26px;
+    }
+    
+    .bagian-extra2 h1:after {
+        width: 100px; 
+    }
+
+    .bagian-extra1 {
+        margin: 15px 25px;
+
+    }
+
+    .contact-form {
+        margin: 15px 40px;
+    }
 }
